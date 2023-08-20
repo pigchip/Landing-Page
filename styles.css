@@ -77,6 +77,7 @@ body{
 }
 
 .titleTwo{
+    text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
@@ -100,6 +101,7 @@ body{
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
@@ -138,6 +140,7 @@ body{
 }
 
 .containerTwo{
+    flex: 1;
     background-color: #007bff;
     display: flex;
     padding: 30px 80px;
